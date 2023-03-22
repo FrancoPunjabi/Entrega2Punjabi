@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso Industrial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    <!-- CONSERVAR CAMBIOS DE NAV BAR PRE ENTREGA 1 -->
+    <!-- <header class="header__inicio">
+        <nav>
+            <div class="div__inicio">
+                <a href="../index.html"><img class="header__logo" src="../images/MirgorLogo.png" alt="Logo Grupo Mirgor"></a>         
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a class="header__a" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="placas.html">PCB's</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="procesos.html">Proceso industrial</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="maquinas.html">Tipos de máquinas</a>
+                    </li>
+                    <li class="header__li">
+                        <a class="header__a" href="sabermas.html">Saber Más</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> -->
+    
+    <header class="header__inicio">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="../index.html"><img class="header__logo" src="../images/MirgorLogo.png" alt="Logo Grupo Mirgor"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="maquinas.html">Máquinas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="placas.html">Placas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="procesos.html">Procesos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sabermas.html">Saber Más</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="titulo1">Proceso de fabricación de PCB</h1>
+            <p class="parrafo">El objetivo de la fabricación de PCB es convertir tu diseño de software en un dispositivo utilizable, la PCB, que contenga los componentes que has definido y la conectividad definida. La fabricación es el primer proceso aquí. Durante este proceso, la placa está preparada para que tus componentes se conecten. Cada paso se basa en el anterior, lo que da como resultado una PCB que contiene todos los rastros, taladros, pads de componentes y cualquier imagen adicional, como logotipos o texto.</p>
+        </section>
+        <section>
+            <h2 class="titulo2">Secuencia operacional</h2>
+            <ol class="div__ul">
+                <li>
+                    <a href="#disenio">Diseño</a>
+                </li>
+                <li>
+                    <a href="#capas">Capas de la PCB</a>
+                </li>
+                <li>
+                    <a href="#enmascaramiento">Enmascaramiento</a>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h3 class="titulo2">Detalle de secuencia operacional</h3>
+            <article>
+                <p id="disenio" class="parrafo"> El primer paso del proceso de fabricación de PCB es diseñar una imagen del diseño. Esta imagen debe ser exactamente como la que has creado en el software y puede imprimirse en la placa o en una superposición de imágenes. El siguiente paso es el grabado de la capa interna. Durante este paso, se elimina el exceso de cobre de las capas internas de la placa, de modo que solo quedan las trazas de cobre.
+                </p>
+                <p id="capas" class="parrafo"> El siguiente paso es agregar todas las capas que conformarán la placa, lo que se denomina apilamiento. En este punto, se ha construido el PCB, incluidas todas las capas internas. El siguiente paso es la perforación de los agujeros, que incluye vías y agujeros de montaje. Una vez hecho esto, se realiza el grabado de la capa externa que deja los rastros de cobre de la capa superficial. Con los agujeros perforados, el revestimiento se puede hacer por vías.
+                </p>
+                <p id="enmascaramiento"  class="parrafo"> El enmascaramiento de la soldadura se realiza a continuación, que cubre todas las áreas de la placa donde no se debe aplicar la soldadura. El paso de serigrafía es donde se agregan símbolos, indicadores del pin 1, logotipos y otras imágenes. Por último, se limpia la placa y se eliminan los restos. También se agrega una capa protectora. Este es el paso final del proceso de fabricación de PCB. Ahora, la base con la cual se unirán tus componentes, mediante soldadura, está completa
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2 class="titulo2">Proceso de ensamblaje de PCB</h2>
+            <article>
+                <p class="parrafo">Una vez fabricada, tu placa está lista para montar los componentes. Cada paso durante el proceso de ensamblaje respalda la seguridad de tus componentes en la PCB. El método real de asegurar los componentes es mediante soldadura. Esto es así tanto si los componentes son dispositivos de montaje en superficie (SMD) o de orificio pasante</p>
+                <p class="parrafo">El método de soldadura utilizado para agujeros pasantes y SMD suele ser diferente. Dependiendo de los componentes de su diseño, el ensamblaje puede variar ligeramente; sin embargo, el proceso general se suele poder definir mediante un conjunto específico de pasos. Lo primero que se hace a la placa fabricada es aplicar una capa inicial de soldadura. Si tu diseño los incluye, los SMD se colocan de modo que estén conectados a los pads apropiadas. Para asegurar las SMD, el reflujo de soldadura se realiza cuando la soldadura se calienta en un horno para formar conexiones.</p>
+                <p class="parrafo">En este punto, las conexiones se inspeccionan para garantizar una buena conectividad. Si es necesario, vuelve a realizar el trabajo, que puede incluir soldadura manual o reposicionamiento de componentes. A continuación, se montan componentes de orificio pasante, si tu diseño los incluye. Para asegurar los componentes del orificio pasante, se puede realizar una forma de soldadura por onda, que es su aplicación más ventajosa.</p>
+        </article>
+        <div class="imagenes2">
+            <img src="../images/DiagramaFlujoPcb.jpg" alt="Diagrama de flujo proceso smt">
+        </div>
+    </main>
+    
+    <footer>
+        <div>
+            <a target="_blank" href="http://instagram.com"><img src="../images/instagram48x48.svg" alt="Emoticono instagram rosa para footer"></a>
+            <a target="_blank" href="http://facebook.com."><img src="../images/facebook48x48.svg" alt="Emoticono Facebook azul para footer"></a>
+        </div>
+        <div>
+            <p>&copy;Proyecto Punjabi</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
